@@ -1,4 +1,4 @@
-// Copyright KBrito
+// Copyright Druid Mechanics
 
 #pragma once
 
@@ -6,11 +6,13 @@
 #include "Character/AuraCharacterBase.h"
 #include "AuraCharacter.generated.h"
 
+/**
+ * 
+ */
 UCLASS()
 class AURA_API AAuraCharacter : public AAuraCharacterBase
 {
 	GENERATED_BODY()
-
-private:
+public:
 	AAuraCharacter();
 };

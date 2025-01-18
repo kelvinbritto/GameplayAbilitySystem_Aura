@@ -1,4 +1,4 @@
-// Copyright KBrito
+// Copyright Druid Mechanics
 
 
 #include "Character/AuraCharacterBase.h"
@@ -12,7 +12,14 @@ AAuraCharacterBase::AAuraCharacterBase()
 	Weapon->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 }
 
+UAbilitySystemComponent* AAuraCharacterBase::GetAbilitySystemComponent() const
+{
+	return AbilitySystemComponent;
+}
+
 void AAuraCharacterBase::BeginPlay()
 {
 	Super::BeginPlay();
+	
 }
+

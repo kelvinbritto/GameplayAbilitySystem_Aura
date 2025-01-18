@@ -1,4 +1,4 @@
-// Copyright KBrito
+// Copyright Druid Mechanics
 
 #pragma once
 
